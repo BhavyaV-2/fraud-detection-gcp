@@ -1,0 +1,51 @@
+# Python environments and generated files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage*
+htmlcov/
+coverage.xml
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local configuration and cloud credentials.
+.env
+.env.*
+!.env.example
+.aws/
+.gcloud/
+credentials/
+secrets/
+*service-account*.json
+*service_account*.json
+*-key.json
+gcp-credentials*.json
+application_default_credentials.json
+*.pem
+*.key
+*.p12
+
+# Regenerate the model with src/train_model/train.py.
+*.pkl
+*.joblib
+data/
+*.log
+
+# Local reports and alternate dashboard drafts.
+/*.docx
+/*.pdf
+/dashboard (*).html
+/{src/
+
+# Editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
